@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment secrets
+.env
+
+# Generated datasets and embeddings
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated model files
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
